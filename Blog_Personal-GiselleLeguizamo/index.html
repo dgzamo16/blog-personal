@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<!--Seccion del menu-->
+	<nav class="navbar-inverse" style="position: sticky;
+	top: 0; z-index: 9999;">
+	
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle"
+		data-toggle="collapse" 
+		data-target="#myNavbar">
+	
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+
+	<a class="navbar-brand" href="#">Giselle Leguizamo</a>
+	</div>
+
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav">
+			<li> <a href="#travel">Viajes</a> </li>
+			<li> <a href="#movies">Peliculas</a> </li>
+			<li> <a href="#books">Libros</a> </li>
+			<li> <a href="#contact">Contactos</a> </li>
+		</ul>
+	</div>
+
+	</nav>
+
+	<!--Seccion para los viajes-->
+	<center>
+		<div class="container">
+			<h2 class="page-header">Destinos que
+			tienes que visitar</h2>
+
+			<center>
+				<div class="travel_mainDiv">
+					<img src="foto.jpg">
+					<h4 class="text-capitalize">Río de Janeiro</h4>
+					<hr>
+					<h5 class="text-success text-capitalize">Me gustaria
+						visitar Río de Janeiro por sus paisajes
+					</h5>
+
+					<p class="text-muted">
+						Es uno de los principales centros económicos, de recursos 
+						culturales y financieros de Brasil, sede de empresas nacionales 
+						e internacionales. Inscripta en la lista del Patrimonio Mundial 
+						de la Unesco, Rio de Janeiro es conocida internacionalmente 
+						como Ciudad Maravillosa (Cidade Maravilhosa, en portugués) con 
+						iconos culturales y paisajes como el Pan de Azúcar, la estatua 
+						del Cristo Redentor (una de las siete maravillas del mundo moderno,
+						declarada Patrimonio Histórico y Artístico de Brasil), las 
+						playas de Copacabana e Ipanema, el Estadio de Maracaná, el 
+						parque nacional de Tijuca (el mayor bosque urbano del mundo), 
+						las fiestas de Fin de Año en Copacabana y la celebración del 
+						Carnaval.
+					</p>
+				</div>
+			</center>
+		</div>
+	</center>
+	<center>
+	<!--Seccion para las peliculas-->
+
+	<h2 class="page-header" id="movies">Reseñas de peliculas</h2>
+	<div class="bg-primary movie_head" data-toggle="collapse"
+		data-target="#avengers_endgame">
+		<span class="glyphicon glyphicon-film"></span>
+		Avengers EndGame 
+		<i class="fa fa-sort-desc"></i>
+	</div>
+
+	<div id="avengers_endgame" class="collapse">
+		<div class="movie_text">
+			<img src="avangers.jpg" class="img-responsive img-thumbnail">
+			<h5 class="text-success text-capitalize">
+				Excelente manera de concluir la saga.
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+			</h5>
+			<p>
+				El rodaje adicional se llevó a cabo en las áreas metropolitana 
+				y del centro de Atlanta, el estado de Nueva York, Escocia 
+				e Inglaterra. El título oficial se reveló en diciembre de 2018.
+				 Con un presupuesto estimado de $356.400 millones de dólares, 
+				 la película es una de las películas más caras de la historia.
+			</p>
+		</div>
+	</div>
+</center>
+<!--Seccion para los libros-->
+<center>
+
+	<h2 class="page-header" id="books">
+		Lista de Libros
+	</h2>
+
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+		<img src="foto1.webp" class="img-responsive">
+		<hr>
+		<a href="https://es.wikipedia.org/wiki/Moby_Dick">
+			Moby Dick
+		</a>
+	</div>
+
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+		<img src="libroMujercitas.webp" class="img-responsive">
+		<hr>
+		<a href="https://es.wikipedia.org/wiki/Mujercitas">
+			Mujercitas
+		</a>
+	</div>
+</center>
+
+<!--Seccion pie de pagina-->
+<section id="contac">
+<h1>Mapa y Contactos</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16257419.99626545!2d-85.02230923574916!3d5.841996490513775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e15a43aae1594a3%3A0x9a0d9a04eff2a340!2sColombia!5e0!3m2!1ses!2sco!4v1718408232769!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<hr>
+<img src="" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-3">
+<h3>Giselle Leguizamo</h3>
+
+<!--Codigo para agregar los contactos-->
+<div class="contact1">
+	<a href="dayisleguizamo@hotmail.com">
+		<h5> 
+			<i class="fa fa-envelope"></i>
+			&nbsp; &nbsp;
+			dayisleguizamo@hotmail.com
+		</h5>
+	</a>
+
+	<a href="#">
+		<h5>
+			<i class="fa fa-instagram"></i>
+			&nbsp; &nbsp;
+			Dgiselle23
+		</h5>
+	</a>
+
+</div>
+
+</section>
+
+
+</body>
+</html>
