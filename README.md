@@ -10,5 +10,8 @@ Blog personal desarrollado con HTML y CSS.
 - Reseña de libro favorito (Mujercitas)
 - Diseño responsive
 
+# Vista del proyecto 
+https://blog-personal-five-ebon.vercel.app
+
 ## Contexto
 Proyecto de desarrollo web frontend · 2025
